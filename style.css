@@ -88,3 +88,12 @@ ul.flex{
 .order{
     order: 1;
 }
+
+.greensquare{
+    background-color: hsl(120deg 60.69% 33.92%);
+    height: 600px;
+    width: 70%;
+}
+.blackbackground{
+    background-color: black;
+}
