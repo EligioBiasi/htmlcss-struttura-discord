@@ -53,21 +53,38 @@ ul.flex{
     max-width: 1000px;
     margin: auto;
 }
+.content{
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
 
 .bluebackground{
     background-color: blue;
     margin: auto;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-    
 }
 
-.pinksquare{
-    background-color: pink;
+.lightpinksquare{
+    background-color: #ee82ee;
     width: 800px;
-    margin:auto;
     height: 350px;
 }
 
+.pinksquare{
+    width: 20%;
+    height: 350px;
+    background-color: pink;
+}
 
+.bluesquare{
+    width: 50%;
+    background-color: blue;
+    height: 350px;
+}
+
+.greybackground{
+    background-color: #d3d3d3;
+}
+.order{
+    order: 1;
+}
