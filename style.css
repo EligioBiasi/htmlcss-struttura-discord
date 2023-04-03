@@ -6,11 +6,7 @@
 
 header{
     background-color: hsl(194.74deg 53.27% 79.02%);
-    padding: 20px 40px;
-}
-
-main{
-    padding: 20px 40px;
+    padding: 1em;
 }
 
 ul{
@@ -19,6 +15,10 @@ ul{
 
 div.border{
     border: 2px dashed black;
+}
+.blue-background .flex{
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -49,12 +49,25 @@ ul.flex{
     padding: 5px
 }
 
-.blue-background{
-    background-color: blue;
+.nav{
+    max-width: 1000px;
+    margin: auto;
 }
 
-.pink-square{
-    height: 250px;
-    background-color: hsl(300deg 76.06% 72.16%);
-    padding: 2rem;
+.bluebackground{
+    background-color: blue;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    
 }
+
+.pinksquare{
+    background-color: pink;
+    width: 800px;
+    margin:auto;
+    height: 350px;
+}
+
+
