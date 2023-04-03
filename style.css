@@ -97,3 +97,22 @@ ul.flex{
 .blackbackground{
     background-color: black;
 }
+.lightblue{
+    width: calc(50%/4);
+    height: 350px;
+    background-color: hsl(176.71deg 69.52% 41.18%);
+}
+
+.cyan{
+    background-color: cyan;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.footer-buttons{
+    justify-content: space-between;
+}
+.pinkbuttons{
+    background-color: hsl(350.96deg 100% 85.69%);
+    padding: 3px;
+}
